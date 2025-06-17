@@ -1,0 +1,35 @@
+
+SEC2_TripleS_RUI Security Fuzzing Test Report
+==============================================
+
+Generated: 2025-06-16T20:15:53.506995
+Total Duration: 16.51 seconds
+
+Test Summary:
+- Total Tests: 2
+- Passed: 1
+- Failed: 1
+- Timeout: 0
+- Error: 0
+- Success Rate: 50.0%
+
+Individual Test Results:
+
+test_file_path_restrictions:
+  Status: FAILED
+  Duration: 15.38s
+  Return Code: 1
+
+test_authentication_system:
+  Status: PASSED
+  Duration: 1.14s
+  Return Code: 0
+
+
+Test Descriptions:
+- test_file_path_restrictions: Tests file path access controls
+- test_authentication_system: Tests password authentication security
+
+Security Requirements Tested:
+- SR-05: User authentication (login with 16-char limit)
+- SR-06: File path restrictions (C:\Users\CMU\RawRecords only)

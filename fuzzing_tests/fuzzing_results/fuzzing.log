@@ -1,0 +1,18 @@
+2025-06-16 16:07:55,582 - INFO - Starting comprehensive fuzzing test suite
+2025-06-16 16:07:55,582 - INFO - Running test module: test_tls_communication
+2025-06-16 16:10:46,755 - INFO - Running tests for security requirements: ['SR-05']
+2025-06-16 16:10:46,756 - INFO - Running test module: test_authentication_system
+2025-06-16 16:10:47,343 - INFO - Test test_authentication_system completed in 0.59s with status: FAILED
+2025-06-16 16:10:47,343 - ERROR - Test test_authentication_system failed with stderr: 
+2025-06-16 16:10:47,344 - INFO - Summary: 0/6 tests passed (0.0%)
+2025-06-16 16:20:00,060 - INFO - Running tests for security requirements: ['SR-05']
+2025-06-16 16:20:00,061 - INFO - Running test module: test_authentication_system
+2025-06-16 16:20:00,818 - INFO - Test test_authentication_system completed in 0.76s with status: PASSED
+2025-06-16 16:20:00,819 - INFO - Summary: 1/6 tests passed (16.7%)
+2025-06-16 20:15:36,991 - INFO - Starting fuzzing test suite
+2025-06-16 20:15:36,992 - INFO - Running test module: test_file_path_restrictions
+2025-06-16 20:15:52,368 - INFO - Test test_file_path_restrictions completed in 15.38s with status: FAILED
+2025-06-16 20:15:52,368 - ERROR - Test test_file_path_restrictions failed with stderr: 
+2025-06-16 20:15:52,368 - INFO - Running test module: test_authentication_system
+2025-06-16 20:15:53,506 - INFO - Test test_authentication_system completed in 1.14s with status: PASSED
+2025-06-16 20:15:53,508 - INFO - Summary: 1/2 tests passed (50.0%)

@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SEC2_TripleS_RUI Fuzzing Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { background-color: #f0f0f0; padding: 20px; border-radius: 5px; }
+        .summary { margin: 20px 0; }
+        .test-result { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .passed { background-color: #d4edda; border: 1px solid #c3e6cb; }
+        .failed { background-color: #f8d7da; border: 1px solid #f5c6cb; }
+        .timeout { background-color: #fff3cd; border: 1px solid #ffeaa7; }
+        .error { background-color: #f8d7da; border: 1px solid #f5c6cb; }
+        .details { margin-top: 10px; font-family: monospace; font-size: 12px; }
+        .stats { display: flex; justify-content: space-around; margin: 20px 0; }
+        .stat { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SEC2_TripleS_RUI Security Fuzzing Test Report</h1>
+        <p><strong>Generated:</strong> 2025-06-16T20:15:53.506995</p>
+        <p><strong>Duration:</strong> 16.51 seconds</p>
+    </div>
+    
+    <div class="stats">
+        <div class="stat">
+            <h3>2</h3>
+            <p>Total Tests</p>
+        </div>
+        <div class="stat">
+            <h3>1</h3>
+            <p>Passed</p>
+        </div>
+        <div class="stat">
+            <h3>1</h3>
+            <p>Failed</p>
+        </div>
+        <div class="stat">
+            <h3>50.0%</h3>
+            <p>Success Rate</p>
+        </div>
+    </div>
+    
+    <div class="summary">
+        <h2>Test Results</h2>
+
+        <div class="test-result failed">
+            <h3>test_file_path_restrictions</h3>
+            <p><strong>Status:</strong> FAILED</p>
+            <p><strong>Duration:</strong> 15.38s</p>
+            <p><strong>Return Code:</strong> 1</p>
+        </div>
+
+        <div class="test-result passed">
+            <h3>test_authentication_system</h3>
+            <p><strong>Status:</strong> PASSED</p>
+            <p><strong>Duration:</strong> 1.14s</p>
+            <p><strong>Return Code:</strong> 0</p>
+        </div>
+
+    </div>
+</body>
+</html>
